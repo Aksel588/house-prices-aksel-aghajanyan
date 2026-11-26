@@ -34,6 +34,8 @@ house-prices-aksel-aghajanyan/
 ├── notebooks/
 │   ├── 01_EDA.ipynb              # Part B: explore, clean, new columns
 │   └── 02_Models.ipynb           # Part C: models, winner, submission
+├── presentation/
+│   └── House_Prices_Presentation.pdf   # slides for the live talk
 ├── results/
 │   ├── figures/                  # the best plots (.png)
 │   └── model_comparison.csv      # all models and their CV scores
@@ -102,6 +104,10 @@ The full table is in `results/model_comparison.csv`.
 | **Blend of Lasso and Gradient Boosting** | **0.12413** |
 
 The order on Kaggle is the same as in cross-validation (blend better than Lasso), so the cross-validation was a reliable guide.
+
+## Presentation
+
+The slides for the live presentation are in `presentation/House_Prices_Presentation.pdf`. They follow the same steps as this README: problem, EDA, data preparation, models, results, error analysis and the Kaggle score, with short code examples explained in simple words.
 
 ## Sources
 
